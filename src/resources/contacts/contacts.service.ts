@@ -1,4 +1,4 @@
-import type { Contact } from '~~/types/contacts'
+import type { Contact } from '~~/types/contacts';
 import { contacts } from '~/data'
 import { NotFoundException } from '~/utils/exceptions'
 
