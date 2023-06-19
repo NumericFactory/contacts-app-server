@@ -4,4 +4,6 @@ export interface Contact {
     id: number
     name: string
     type: ContactCategory
+    email?: string
+    tel?: string
 }

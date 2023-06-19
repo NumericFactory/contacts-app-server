@@ -6,17 +6,9 @@ import type { Contact } from '~~/types/contacts'
  * On spécifie ici que `animals` est un tableau contenant des `Animal`
  */
 export const contacts: Contact[] = [
-    { id: 1, name: "Jerome Dinnat", type: 'student' },
-    { id: 2, name: "Sandrine Binutti", type: 'student' },
-    { id: 3, name: "Adrien Defever", type: 'student' },
-    { id: 4, name: "Xavier Morice", type: 'student' },
-    { id: 5, name: "Herve Fondain", type: 'student' },
-    { id: 6, name: "Frederic Lossignol", type: 'teacher' },
-    { id: 7, name: "Alpha-ibrahima Diallo", type: 'student' },
-    { id: 8, name: "Caroline Lambert", type: 'student' },
-    { id: 9, name: "Choukri Bouabana", type: 'student' },
-    { id: 10, name: "Eric Chardon", type: 'student' },
-    { id: 11, name: "Nicolas Mauge", type: 'student' },
-    { id: 12, name: "Sophie Nguyen-do", type: 'student' },
-    { id: 13, name: "Stephane Eveille", type: 'student' },
+    { id: 1, name: "Bill Musk", type: 'student', email: 'bill.musk@ms.co', tel: '0741414141' },
+    { id: 2, name: "Elon Gates", type: 'student', email: 'elon.gates@tesla.com', tel: '0742424242' },
+    { id: 3, name: "John Doe", type: 'teacher', email: 'john.doe@epita.fr', tel: '0743434343' },
+    { id: 4, name: "Bob Dylan", type: 'student', email: 'bob.dylan@duluth.com', tel: '0682868745' },
+    { id: 5, name: "Alice Opays-desmerveilles", type: 'student', email: 'alice.merveille@disney.com', tel: '0699999999' },
 ];
