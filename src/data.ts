@@ -3,7 +3,7 @@ import type { Contact } from '~~/types/contacts'
 /**
  * On imagine que ce sont des données reçues de la base de données
  *
- * On spécifie ici que `animals` est un tableau contenant des `Animal`
+ * On spécifie ici que `contacts` est un tableau de `Contact`
  */
 export const contacts: Contact[] = [
     { id: 1, name: "Bill Musk", type: 'student', email: 'bill.musk@ms.co', tel: '0741414141' },
